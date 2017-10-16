@@ -1,0 +1,1 @@
+make -j4 GAME=hl2.exe NO_WARNINGS=1

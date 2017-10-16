@@ -1,0 +1,1 @@
+make -j4 GAME=tf2c BUILD_DEBUG=1

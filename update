@@ -1,0 +1,2 @@
+bash ./update-nobuild
+./build-tf2

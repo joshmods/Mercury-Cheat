@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+git pull origin master
+git submodule update --remote --recursive
+make clean
+
+./update-data
+
+
+## Ask user if they would like to update the menu
+#read -r -p "Update menu? (Y/n) " key
+## If the user chose yes, then we run the script here
+#if [ $key == "y"* ] || [ $key == "Y"* ]; then
+#	bash update-menu
+#fi
